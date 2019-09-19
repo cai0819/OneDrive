@@ -1,0 +1,10 @@
+server:
+  port: 8761
+eureka:
+  instance:
+    prefer-ip-address: true #以IP地址注册到服务中心，相互注册使用IP地址
+  client:
+    registerWithEureka: false  #当前项目不注册服务
+    fetchRegistry: false  #当前项目不需要发现服务
+    serviceUrl:
+      defaultZone: http://10.8.161.9:${server.port}/eureka/
