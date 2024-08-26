@@ -29,7 +29,7 @@
         <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
         <druid.version>1.1.20</druid.version>
         <mybatisboot.version>2.1.0</mybatisboot.version>
-        <swagger.version>2.9.2</swagger.version>
+        <swagger.version>2.10.0</swagger.version>
         <slf4j.version>1.7.21</slf4j.version>
         <logging.version>1.2</logging.version>
 
